@@ -3,3 +3,4 @@ BUS=="usb", SYSFS{product}=="U3 Cruzer Micro", KERNEL=="sd?1", NAME="sandiskcruz
 BUS=="usb", SYSFS{product}=="FreeAgentDesktop", KERNEL=="sd?1", NAME="freeagent", SYMLINK="freeagent"
 BUS=="usb", SYSFS{product}=="SAMSUNG Trance", KERNEL=="sd?1", NAME="phone", SYMLINK="phone"
 BUS=="usb", SYSFS{product}=="USB-PS/2 Optical Mouse", KERNEL=="event?", NAME="input/mx500", SYMLINK="input/mx500"
+BUS=="usb", SYSFS{product}=="Controller", KERNEL=="event?", NAME="input/xbox360", SYMLINK="input/xbox360", OWNER="root", GROUP="games"
